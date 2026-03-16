@@ -256,7 +256,9 @@ header h1 {
 /* ─── Mobile Responsive ─────────────────────────────── */
 @media (max-width: 500px) {
   body {
-    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: flex-center;
     padding: 1.5rem 1rem;
   }
 
