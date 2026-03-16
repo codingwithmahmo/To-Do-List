@@ -19,7 +19,7 @@ body {
 /* ─── Container Card ────────────────────────────────── */
 .container {
   background: #ffffff;
-  border-radius: 20px;
+  border-radius: 2rem;
   padding: 2.5rem 2rem;
   width: 100%;
   max-width: 480px;
@@ -71,8 +71,8 @@ header h1 {
 .input-row input {
   flex: 1;
   border: 1.5px solid #e8e8e8;
-  border-radius: 12px;
-  padding: 0.75rem 1rem;
+  border-radius: 2rem;
+  padding: 0.85rem 1rem;
   font-family: 'Inter', sans-serif;
   font-size: 0.9rem;
   color: #1a1a1a;
@@ -95,10 +95,10 @@ header h1 {
   background: #1a1a1a;
   color: #fff;
   border: none;
-  border-radius: 12px;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.9rem;
-  font-weight: 500;
+  border-radius: 1.9rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
   cursor: pointer;
   transition: background 0.2s, transform 0.1s;
 }
@@ -117,6 +117,8 @@ header h1 {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
+  border-radius: 2rem;
+  
 }
 
 /* ─── Task Item ─────────────────────────────────────── */
@@ -127,7 +129,7 @@ header h1 {
   padding: 0.85rem 1rem;
   background: #fafafa;
   border: 1.5px solid #f0f0f0;
-  border-radius: 12px;
+  border-radius: 2rem;
   transition: border-color 0.2s, box-shadow 0.2s;
   animation: slideIn 0.2s ease;
 }
@@ -171,6 +173,7 @@ header h1 {
   border: 2px solid #fff;
   border-top: none;
   border-left: none;
+  border-radius: 2rem;
   transform: rotate(45deg);
 }
 
@@ -186,18 +189,18 @@ header h1 {
 
 .task-item.done .task-text {
   text-decoration: line-through;
-  color: #bbb;
+  color: #ff9900;
 }
 
 /* Inline Edit Input */
 .task-edit-input {
   flex: 1;
   border: none;
-  border-bottom: 1.5px solid #ccc;
+  border-bottom: 1.5px solid #00000066;
   background: transparent;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.9rem;
-  color: #1a1a1a;
+  color: #000000;
   outline: none;
   padding: 2px 0;
 }
