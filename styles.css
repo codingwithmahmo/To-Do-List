@@ -252,3 +252,26 @@ header h1 {
   font-weight: 300;
   padding-top: 0.2rem;
 }
+
+/* ─── Mobile Responsive ─────────────────────────────── */
+@media (max-width: 500px) {
+  body {
+    align-items: flex-start;
+    padding: 1.5rem 1rem;
+  }
+
+  .container {
+    padding: 2rem 1.25rem;
+    border-radius: 16px;
+  }
+
+  .input-row {
+    flex-direction: column;
+  }
+
+  .input-row input,
+  .input-row button {
+    width: 100%;
+    border-radius: 12px;
+  }
+}
